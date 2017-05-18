@@ -1,3 +1,4 @@
+#include "matrix.hpp"
 #include <iostream>
 #include <string>
 #include <fstream>
