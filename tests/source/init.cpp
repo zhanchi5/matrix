@@ -13,7 +13,7 @@ SCENARIO("testing +"){
   
   bool rv = true;
 
-      if ((A+B == C){
+      if ((A+B == C)){
         return rv;
       }
       else{
