@@ -19,8 +19,6 @@ SCENARIO("testing +"){
       else{
         return rv = false;
       }
-    }
-  }
   REQUIRE(rv == true);
 
 }
