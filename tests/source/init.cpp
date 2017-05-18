@@ -11,13 +11,13 @@ SCENARIO("testing +"){
   Matrix<int> C(2,4);
   C = A + B;
   
-  bool rv = true;
+  bool rv;
 
   if ((A+B == C)){
-    return rv;
+      rv == true;
    }
    else{
-     return rv = false;
+     rv == false;
    }
   REQUIRE(rv == true);
 }
