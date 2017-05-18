@@ -12,9 +12,8 @@ SCENARIO("testing +"){
   C = A + B;
   
   bool rv = true;
-  for (unsigned int i = 0; i < 2; ++i){
-    for (unsigned int j = 0; j < 4; ++j){
-      if ((A[i][j]+B[i][j])==C[i][j]){
+
+      if ((A+B == C){
         return rv;
       }
       else{
