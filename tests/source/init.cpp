@@ -13,12 +13,11 @@ SCENARIO("testing +"){
   
   bool rv = true;
 
-      if ((A+B == C)){
-        return rv;
-      }
-      else{
-        return rv = false;
-      }
+  if ((A+B == C)){
+    return rv;
+   }
+   else{
+     return rv = false;
+   }
   REQUIRE(rv == true);
-
 }
